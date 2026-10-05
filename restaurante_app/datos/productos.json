@@ -1,0 +1,30 @@
+[
+    {
+        "codigo": "P001",
+        "nombre": "Hamburguesa",
+        "categoria": "Comida",
+        "precio": 5.5,
+        "stock": 20
+    },
+    {
+        "codigo": "P002",
+        "nombre": "Gaseosa",
+        "categoria": "Bebida",
+        "precio": 1.5,
+        "stock": 30
+    },
+    {
+        "codigo": "P003",
+        "nombre": "Nachos",
+        "categoria": "Comida",
+        "precio": 5.0,
+        "stock": 15
+    },
+    {
+        "codigo": "P004",
+        "nombre": "Chocolate",
+        "categoria": "Dulces",
+        "precio": 2.0,
+        "stock": 50
+    }
+]
