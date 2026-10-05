@@ -1,5 +1,3 @@
-# RESTAURANTE-12-CONSOLA-
-
 # Sistema Restaurante – Semana 16
 
 ## Autor
@@ -8,32 +6,43 @@ Gordon Ortega Henri Daniel
 
 ---
 
-## Descripción General
+# Descripción del Proyecto
 
-Aplicación desarrollada en Python utilizando Programación Orientada a Objetos (POO), persistencia de datos mediante archivos JSON e interfaz gráfica con Tkinter.
+Sistema desarrollado en Python utilizando Programación Orientada a Objetos (POO), persistencia de datos mediante archivos JSON e interfaz gráfica desarrollada con Tkinter.
 
-El sistema permite realizar el inicio de sesión, gestionar productos y usuarios mediante operaciones CRUD (Crear, Consultar, Actualizar y Eliminar), almacenar información de manera permanente en archivos JSON y administrar usuarios según roles definidos.
+La aplicación permite administrar productos y usuarios mediante operaciones CRUD, almacenar información de forma permanente en archivos JSON y utilizar eventos gráficos para mejorar la interacción con el usuario.
 
 ---
 
-## Tecnologías Utilizadas
+# Objetivo de la Semana 16
+
+Implementar una gestión completa de usuarios utilizando eventos de Tkinter, manteniendo la arquitectura modular del proyecto y utilizando persistencia de datos mediante archivos JSON.
+
+---
+
+# Tecnologías Utilizadas
 
 - Python 3
 - Tkinter
 - ttk
 - JSON
-- Programación Orientada a Objetos (POO)
-- Colecciones de Python
-  - Listas
-  - Diccionarios
-  - Conjuntos
+- Programación Orientada a Objetos
+- Pillow (Procesamiento de imágenes)
+- Listas
+- Diccionarios
+- Conjuntos
 
 ---
 
-## Estructura del Proyecto
+# Estructura del Proyecto
 
 ```text
 restaurante_app/
+│
+├── assets/
+│   ├── logo.png
+│   ├── usuario.png
+│   └── contraseña.png
 │
 ├── datos/
 │   ├── productos.json
@@ -53,9 +62,5 @@ restaurante_app/
 │   ├── __init__.py
 │   ├── login_view.py
 │   └── main_view.py
-│
-├── assets/
-│   ├── logo.png
-│   └── icono.ico
 │
 └── main.py
